@@ -1,4 +1,4 @@
-var moods = [1, 2, 3, 34, 45, 66];
+var moods = [1, 2, 3, 34, 45, 47];
 
 
 $(document).ready(function () {
