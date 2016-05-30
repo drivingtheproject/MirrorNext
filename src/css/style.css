@@ -1,0 +1,263 @@
+html {}
+
+body {
+    font-family: Arial;
+    background-color: #000;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+span {
+    margin-left: 10px;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+#tblHeader {
+    width: 100%;
+}
+
+#dashboard {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tdLeft {
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+.tdCenter {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tdRight {
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+.clock {
+    background: url(/assets/hour.svg);
+}
+
+.calendar {
+    background: url(/assets/calendar.svg);
+}
+
+.icon-0 {
+    background: url(/assets/weather/0.svg);
+}
+
+.icon-1 {
+    background: url(/assets/weather/1.svg);
+}
+
+.icon-2 {
+    background: url(/assets/weather/2.svg);
+}
+
+.icon-3 {
+    background: url(/assets/weather/3.svg);
+}
+
+.icon-4 {
+    background: url(/assets/weather/3.svg);
+}
+
+.icon-5 {
+    background: url(/assets/weather/5.svg);
+}
+
+.icon-6 {
+    background: url(/assets/weather/6.svg);
+}
+
+.icon-7 {
+    background: url(/assets/weather/7.svg);
+}
+
+.icon-8 {
+    background: url(/assets/weather/8.svg);
+}
+
+.icon-9 {
+    background: url(/assets/weather/9.svg);
+}
+
+.icon-10 {
+    background: url(/assets/weather/10.svg);
+}
+
+.icon-11 {
+    background: url(/assets/weather/11.svg);
+}
+
+.icon-12 {
+    background: url(/assets/weather/11.svg);
+}
+
+.icon-13 {
+    background: url(/assets/weather/13.svg);
+}
+
+.icon-14 {
+    background: url(/assets/weather/14.svg);
+}
+
+.icon-15 {
+    background: url(/assets/weather/15.svg);
+}
+
+.icon-16 {
+    background: url(/assets/weather/16.svg);
+}
+
+.icon-17 {
+    background: url(/assets/weather/17.svg);
+}
+
+.icon-18 {
+    background: url(/assets/weather/18.svg);
+}
+
+.icon-19 {
+    background: url(/assets/weather/19.svg);
+}
+
+.icon-20 {
+    background: url(/assets/weather/20.svg);
+}
+
+.icon-21 {
+    background: url(/assets/weather/21.svg);
+}
+
+.icon-22 {
+    background: url(/assets/weather/22.svg);
+}
+
+.icon-23 {
+    background: url(/assets/weather/23.svg);
+}
+
+.icon-24 {
+    background: url(/assets/weather/24.svg);
+}
+
+.icon-25 {
+    background: url(/assets/weather/25.svg);
+}
+
+.icon-26 {
+    background: url(/assets/weather/26.svg);
+}
+
+.icon-27 {
+    background: url(/assets/weather/27.svg);
+}
+
+.icon-28 {
+    background: url(/assets/weather/28.svg);
+}
+
+.icon-29 {
+    background: url(/assets/weather/29.svg);
+}
+
+.icon-30 {
+    background: url(/assets/weather/30.svg);
+}
+
+.icon-31 {
+    background: url(/assets/weather/31.svg);
+}
+
+.icon-32 {
+    background: url(/assets/weather/32.svg);
+}
+
+.icon-33 {
+    background: url(/assets/weather/33.svg);
+}
+
+.icon-34 {
+    background: url(/assets/weather/34.svg);
+}
+
+.icon-35 {
+    background: url(/assets/weather/35.svg);
+}
+
+.icon-36 {
+    background: url(/assets/weather/36.svg);
+}
+
+.icon-37 {
+    background: url(/assets/weather/3.svg);
+}
+
+.icon-38 {
+    background: url(/assets/weather/3.svg);
+}
+
+.icon-39 {
+    background: url(/assets/weather/3.svg);
+}
+
+.icon-40 {
+    background: url(/assets/weather/40.svg);
+}
+
+.icon-41 {
+    background: url(/assets/weather/41.svg);
+}
+
+.icon-42 {
+    background: url(/assets/weather/42.svg);
+}
+
+.icon-43 {
+    background: url(/assets/weather/43.svg);
+}
+
+.icon-44 {
+    background: url(/assets/weather/44.svg);
+}
+
+.icon-45 {
+    background: url(/assets/weather/45.svg);
+}
+
+.icon-46 {
+    background: url(/assets/weather/46.svg);
+}
+
+.icon-47 {
+    background: url(/assets/weather/45.svg);
+}
+
+.icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+    vertical-align: middle;
+}
+
+.nav-text {
+    vertical-align: middle;
+    font-size: 32px;
+}
+
+.row-text {
+    vertical-align: middle;
+    font-size: 20px;
+}
