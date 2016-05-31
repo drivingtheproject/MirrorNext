@@ -1,3 +1,231 @@
+@font-face {
+    font-family: 'weather';
+    src: url('../fonts/weather.eot?pjl8aa');
+    src: url('../fonts/weather.eot?pjl8aa#iefix') format('embedded-opentype'), url('../fonts/weather.ttf?pjl8aa') format('truetype'), url('../fonts/weather.woff?pjl8aa') format('woff'), url('../fonts/weather.svg?pjl8aa#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'weather' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-calendar:before {
+    content: "\e900";
+}
+
+.icon-hour:before {
+    content: "\e901";
+}
+
+.icon-0:before {
+    content: "\e902";
+}
+
+.icon-1:before {
+    content: "\e903";
+}
+
+.icon-2:before {
+    content: "\e904";
+}
+
+.icon-3:before {
+    content: "\e905";
+}
+
+.icon-4:before {
+    content: "\e906";
+}
+
+.icon-5:before {
+    content: "\e907";
+}
+
+.icon-6:before {
+    content: "\e908";
+}
+
+.icon-7:before {
+    content: "\e909";
+}
+
+.icon-8:before {
+    content: "\e90a";
+}
+
+.icon-9:before {
+    content: "\e90b";
+}
+
+.icon-10:before {
+    content: "\e90c";
+}
+
+.icon-11:before {
+    content: "\e90d";
+}
+
+.icon-12:before {
+    content: "\e90e";
+}
+
+.icon-13:before {
+    content: "\e90f";
+}
+
+.icon-14:before {
+    content: "\e910";
+}
+
+.icon-15:before {
+    content: "\e911";
+}
+
+.icon-16:before {
+    content: "\e912";
+}
+
+.icon-17:before {
+    content: "\e913";
+}
+
+.icon-18:before {
+    content: "\e914";
+}
+
+.icon-19:before {
+    content: "\e915";
+}
+
+.icon-20:before {
+    content: "\e916";
+}
+
+.icon-21:before {
+    content: "\e917";
+}
+
+.icon-22:before {
+    content: "\e918";
+}
+
+.icon-23:before {
+    content: "\e919";
+}
+
+.icon-24:before {
+    content: "\e91a";
+}
+
+.icon-25:before {
+    content: "\e91b";
+}
+
+.icon-26:before {
+    content: "\e91c";
+}
+
+.icon-27:before {
+    content: "\e91d";
+}
+
+.icon-28:before {
+    content: "\e91e";
+}
+
+.icon-29:before {
+    content: "\e91f";
+}
+
+.icon-30:before {
+    content: "\e920";
+}
+
+.icon-31:before {
+    content: "\e921";
+}
+
+.icon-32:before {
+    content: "\e922";
+}
+
+.icon-33:before {
+    content: "\e923";
+}
+
+.icon-34:before {
+    content: "\e924";
+}
+
+.icon-35:before {
+    content: "\e925";
+}
+
+.icon-36:before {
+    content: "\e926";
+}
+
+.icon-37:before {
+    content: "\e927";
+}
+
+.icon-38:before {
+    content: "\e928";
+}
+
+.icon-39:before {
+    content: "\e929";
+}
+
+.icon-40:before {
+    content: "\e92a";
+}
+
+.icon-41:before {
+    content: "\e92b";
+}
+
+.icon-42:before {
+    content: "\e92c";
+}
+
+.icon-43:before {
+    content: "\e92d";
+}
+
+.icon-44:before {
+    content: "\e92e";
+}
+
+.icon-45:before {
+    content: "\e92f";
+}
+
+.icon-46:before {
+    content: "\e930";
+}
+
+.icon-47:before {
+    content: "\e931";
+}
+
+.icon-3200:before {
+    content: "\e932";
+}
+
+
 /*
 @font-face {
     font-family: 'weather';
@@ -6,14 +234,17 @@
     font-weight: normal;
     font-style: normal;
 }
+*/
 
+
+/*
 i {
     color: #fff;
     font-family: weather;
     font-size: 72px;
     font-weight: normal;
     font-style: normal;
-    text-transform: none;
+    text-transform: full-width;
 }
 
 .icon-0:before {
@@ -206,5 +437,4 @@ i {
 
 .icon-47:before {
     content: "S";
-}
-*/
+}*/

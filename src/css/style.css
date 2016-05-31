@@ -45,14 +45,15 @@ span {
 }
 
 .clock {
-    background: url(/assets/hour.svg);
+    background: url(/assets/rain.png);
 }
 
 .calendar {
     background: url(/assets/calendar.svg);
 }
 
-.icon-0 {
+
+/*.icon-0 {
     background: url(/assets/weather/0.svg);
 }
 
@@ -242,22 +243,34 @@ span {
 
 .icon-47 {
     background: url(/assets/weather/45.svg);
-}
+}*/
 
 .icon {
     display: inline-block;
     width: 28px;
     height: 28px;
     background-size: 28px 28px;
+    vertical-align: text-top;
+}
+
+.iconHeader {
+    color: #fff;
+    font-size: 36px;
     vertical-align: middle;
 }
 
-.nav-text {
+.iconContent {
+    color: #fff;
+    font-size: 28px;
+    vertical-align: middle;
+}
+
+.header-text {
     vertical-align: middle;
     font-size: 18px;
 }
 
-.row-text {
+.content-text {
     vertical-align: middle;
     font-size: 14px;
 }

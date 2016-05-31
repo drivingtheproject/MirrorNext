@@ -6,18 +6,18 @@ $(document).ready(function () {
     var div = $('#forecast');
     var count = 0;
 
-    function changeNews() {
+    function changeForecast() {
 
-        var forecast = "<i class='icon-" + moods[count++] + " icon'></i><span class='row-text'>Tuesday 31, Thunder Strom</span><span class='row-text'>21 &deg; C</span>";
+        var forecast = "<i class='icon-" + moods[count++] + " iconContent'></i><span class='content-text'>Tuesday 31, Thunder Strom</span><span class='content-text'>21 &deg; C</span>";
 
-        div.fadeIn().delay(3500).fadeOut(function () {
-            changeNews();
+        div.fadeIn(600).delay(3500).fadeOut(function () {
+            changeForecast();
         }).html(forecast)
         if (count == moods.length) {
             count = 0;
         }
     }
 
-    changeNews();
+    changeForecast();
 
 });
