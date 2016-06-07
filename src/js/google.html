@@ -1,0 +1,83 @@
+<html>
+
+<body>
+    <div id='content'>
+        <h1>Events</h1>
+        <ul id='events'></ul>
+    </div>
+    <a href='#' id='authorize-button' onclick='handleAuthClick();'>Login</a>
+
+    <script>
+        var clientId = '107442237915-vgh7scnebat6j2dlga90e7uol10kf4n5.apps.googleusercontent.com';
+        var apiKey = 'AIzaSyDhRKy8MsehV3wjj_0dhksJvki6ODHmTWo';
+        var scopes = 'https://www.googleapis.com/auth/calendar';
+
+        function handleClientLoad() {
+            gapi.client.setApiKey(apiKey);
+            window.setTimeout(checkAuth, 1);
+            checkAuth();
+        }
+
+        function checkAuth() {
+            gapi.auth.authorize({
+                    client_id: clientId
+                    , scope: scopes
+                    , immediate: true
+                }
+                , handleAuthResult);
+        }
+
+        function handleAuthResult(authResult) {
+            var authorizeButton = document.getElementById('authorize-button');
+            if (authResult) {
+                authorizeButton.style.visibility = 'hidden';
+                makeApiCall();
+            } else {
+                authorizeButton.style.visibility = '';
+                authorizeButton.onclick = handleAuthClick;
+            }
+        }
+
+        function handleAuthClick(event) {
+            gapi.auth.authorize({
+                    client_id: clientId
+                    , scope: scopes
+                    , immediate: false
+                }
+                , handleAuthResult);
+            return false;
+        }
+
+        function makeApiCall() {
+            gapi.client.load('calendar', 'v3', function () {
+
+                var result = new Date();
+                result.setDate(result.getDate() - 300);
+
+                var request = gapi.client.calendar.events.list({
+                    'calendarId': '0saurabh@gmail.com'
+                    , "singleEvents": true
+                    , "orderBy": "startTime"
+                    , "timeMin": result.toISOString()
+                    , "timeMax": (new Date()).toISOString()
+                });
+
+                request.execute(function (resp) {
+
+                    if (resp.error) {
+                        console.warn(resp.message)
+                        return;
+                    }
+                    for (var i = 0; i < resp.items.length; i++) {
+                        var li = document.createElement('li');
+                        li.appendChild(document.createTextNode(resp.items[i].summary + "--" + resp.items[i].start.date));
+                        document.getElementById('events').appendChild(li);
+                    }
+                });
+            });
+        }
+    </script>
+    <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+</body>
+
+</html>

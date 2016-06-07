@@ -1,3 +1,8 @@
+var clientId = '107442237915-vgh7scnebat6j2dlga90e7uol10kf4n5.apps.googleusercontent.com';
+var apiKey = 'AIzaSyDhRKy8MsehV3wjj_0dhksJvki6ODHmTWo';
+var scopes = 'https://www.googleapis.com/auth/calendar';
+
+
 var forecasts = [];
 
 $(document).ready(function () {
@@ -19,10 +24,10 @@ $(document).ready(function () {
 
     function getWeather() {
         $.simpleWeather({
-            location: 'Wiesloch',
-            woeid: '',
-            unit: 'c',
-            success: function (weather) {
+            location: 'Wiesloch'
+            , woeid: ''
+            , unit: 'c'
+            , success: function (weather) {
                 var html = "<i class='icon-" + weather.code + " iconHeader'></i><span class='header-text'>" + weather.temp + "&deg;" + weather.units.temp + "</span>";
                 $("#weather").html(html);
                 for (var i = 0; i < weather.forecast.length; i++) {
@@ -31,8 +36,8 @@ $(document).ready(function () {
                 rotateForecast();
                 var timestamp = moment(weather.updated.substr(0, weather.updated.length - 5));
                 $("#footer").html('<p>Weather updated ' + moment(timestamp).fromNow() + '&nbsp;&nbsp;</p>');
-            },
-            error: function (error) {
+            }
+            , error: function (error) {
                 $("#weather").html('<p>' + error + '</p>');
             }
         });

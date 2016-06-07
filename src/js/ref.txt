@@ -1,0 +1,91 @@
+{
+ "kind": "calendar#calendarList",
+ "etag": "\"1464318741347000\"",
+ "nextSyncToken": "CLj1qbOk-cwCEhIwc2F1cmFiaEBnbWFpbC5jb20=",
+ "items": [
+  {
+
+   "kind": "calendar#calendarListEntry",
+   "etag": "\"0\"",
+   "id": "0saurabh@gmail.com",
+   "summary": "saurabh dubey",
+   "timeZone": "Europe/Berlin",
+   "colorId": "2",
+   "backgroundColor": "#d06b64",
+   "foregroundColor": "#000000",
+   "selected": true,
+   "accessRole": "owner",
+   "defaultReminders": [
+    {
+     "method": "popup",
+     "minutes": 30
+    }
+   ],
+   "notificationSettings": {
+    "notifications": [
+     {
+      "type": "eventCreation",
+      "method": "email"
+     },
+     {
+      "type": "eventChange",
+      "method": "email"
+     },
+     {
+      "type": "eventCancellation",
+      "method": "email"
+     }
+    ]
+   },
+   "primary": true
+  },
+  {
+
+   "kind": "calendar#calendarListEntry",
+   "etag": "\"1426064721014000\"",
+   "id": "#contacts@group.v.calendar.google.com",
+   "summary": "Birthdays",
+   "description": "Displays birthdays of people in Google Contacts and optionally \"Your Circles\" from Google+. Also displays anniversary and other event dates from Google Contacts, if applicable.",
+   "timeZone": "Europe/Berlin",
+   "colorId": "13",
+   "backgroundColor": "#92e1c0",
+   "foregroundColor": "#000000",
+   "selected": true,
+   "accessRole": "reader",
+   "defaultReminders": [
+   ]
+  },
+  {
+
+   "kind": "calendar#calendarListEntry",
+   "etag": "\"1426064720749000\"",
+   "id": "en.german#holiday@group.v.calendar.google.com",
+   "summary": "Holidays in Germany",
+   "description": "Holidays and Observances in Germany",
+   "timeZone": "Europe/Berlin",
+   "colorId": "7",
+   "backgroundColor": "#42d692",
+   "foregroundColor": "#000000",
+   "selected": true,
+   "accessRole": "reader",
+   "defaultReminders": [
+   ]
+  },
+  {
+
+   "kind": "calendar#calendarListEntry",
+   "etag": "\"0\"",
+   "id": "p#weather@group.v.calendar.google.com",
+   "summary": "Weather",
+   "description": "Daily weather forecast for your location",
+   "timeZone": "Europe/Berlin",
+   "colorId": "22",
+   "backgroundColor": "#f691b2",
+   "foregroundColor": "#000000",
+   "selected": true,
+   "accessRole": "reader",
+   "defaultReminders": [
+   ]
+  }
+ ]
+}
