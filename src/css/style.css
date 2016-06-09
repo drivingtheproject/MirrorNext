@@ -76,8 +76,10 @@ span {
 
 .footer {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
     text-align: right;
     font-size: 12px;
+    overflow: hidden;
+    vertical-align: middle;
 }
